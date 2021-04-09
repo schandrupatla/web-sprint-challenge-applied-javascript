@@ -51,7 +51,8 @@ dTab5.classList.add("tab");
 dTab5.textContent = topics[4];
 dTopics.appendChild(dTab5);
 
-console.log(dTopics);
+
+//console.log(dTopics);
 return dTopics;
 
 

@@ -25,7 +25,7 @@ dCard.classList.add("card");
 const dHeadline = document.createElement("div");
 dHeadline.classList.add("headline");
 dHeadline.textContent = article.headline;
-console.log("Article-Headline :",article.headline);
+//console.log("Article-Headline :",article.headline);
 dCard.appendChild(dHeadline);
 
 //div author
@@ -54,7 +54,7 @@ console.log("Article Headline ", article.headline);
 
 })
 
-console.log(dCard);
+//console.log(dCard);
 return dCard;
 }
 
@@ -76,7 +76,7 @@ const cardAppender = (selector) => {
       articleData.forEach(article => {
       const newCard = Card(article);
       const entryPoint = document.querySelector(selector);
-      console.log("Selector:", selector)
+      //console.log("Selector:", selector)
       entryPoint.appendChild(newCard);
     });
 
